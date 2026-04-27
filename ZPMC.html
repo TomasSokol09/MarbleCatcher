@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Marble catcher</title>
+    <link rel="stylesheet" type="text/css" href="ZPMC.css">
+    <link rel="icon" href="MC.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Marble catcher</h1>
+        <h2>Závěrečná práce</h2>
+    </header>
+
+    <div style="display:flex; justify-content:center; align-items:center; gap: 100px">
+        <div>
+            <canvas id="game"></canvas>
+        </div>
+        <div>
+            <img src="hearts.png" alt="Srdce" id="1">
+            <img src="hearts.png" alt="Srdce" id="2">
+            <img src="hearts.png" alt="Srdce" id="3"><br>
+            <button id="startBtn" onclick="startGame()">Start Game</button><br>
+            <p id="counter">Marbles caught: 0</p>
+            <p>Streak: <span id="streak">0</span> <img src="flames.png" alt="flames" id="flames" style="display: none"></p>
+            <a href="index.html">Main page</a><br><br>
+            <a href="CONTROLS.html">Controls</a>
+        </div>
+    </div>
+
+    <script src="ZPMC.js"></script>
+
+    <footer>
+        <p>&copy; 2026 SPŠE Havířov Tomáš Sokol</p>
+    </footer>
+</body>
+</html>
